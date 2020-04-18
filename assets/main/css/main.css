@@ -2509,12 +2509,12 @@ input[type="submit"].disabled,input[type="submit"]:disabled,input[type="reset"].
 }
 @media screen and (max-width: 1680px){
     #header{
-        padding-top:5em
+        padding-top:1.5em
     }
 }
 @media screen and (max-width: 736px){
     #header{
-        padding-top:6.5em
+        padding-top:5.5em
     }
     #header .logo{
         font-size:1.25em;
@@ -2722,21 +2722,30 @@ input[type="submit"].disabled,input[type="submit"]:disabled,input[type="reset"].
     height: auto;
     max-width: 12vw
 }
+
 @media screen and (max-width: 736px){
     #header .logo.image{
         display:flex;
         justify-content:center;
         text-align:center;
-        width: 100%;
-        height: auto;
-        max-width: 33%
-    }
+        width: unset;
+        height: unset;
+        max-width: unset
+    }   
 }
+
 #header .logo.image img{
     height:auto;
     transform:none !important;
     object-fit:contain
 }
+
+@media screen and (max-width: 736px){
+    #header .logo.image{
+        height:32px
+    }   
+}
+
 
 @media screen and (max-width: 736px){
     #sidebar:not(.inactive) .toggle:before{
