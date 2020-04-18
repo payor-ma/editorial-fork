@@ -2937,15 +2937,18 @@ input[type="submit"].disabled,input[type="submit"]:disabled,input[type="reset"].
         width:calc(100% + 4rem)
     }
 }
+
 .kg-gallery-container{
     display:flex;
     flex-direction:column;
-    margin-left:-6rem;
-    margin-right:-6rem;
-    width:calc(100% + 12rem)
+    margin: 0 auto;
+    /*margin-left:-6rem;
+    margin-right:-6rem;*/
+    width:calc(72% + 12rem)
 }
 @media screen and (max-width: 1280px){
     .kg-gallery-container{
+        margin: unset;
         margin-left:-4rem;
         margin-right:-4rem;
         width:calc(100% + 8rem)
@@ -2953,6 +2956,7 @@ input[type="submit"].disabled,input[type="submit"]:disabled,input[type="reset"].
 }
 @media screen and (max-width: 980px){
     .kg-gallery-container{
+        margin: unset;
         margin-left:-2rem;
         margin-right:-2rem;
         width:calc(100% + 4rem)
@@ -2960,11 +2964,13 @@ input[type="submit"].disabled,input[type="submit"]:disabled,input[type="reset"].
 }
 @media screen and (max-width: 736px){
     .kg-gallery-container{
+        margin: unset;
         margin-left:0;
         margin-right:0;
         width:100%
     }
 }
+
 .kg-gallery-row{
     display:flex;
     flex-direction:row;
@@ -3109,4 +3115,3 @@ input[type="submit"].disabled,input[type="submit"]:disabled,input[type="reset"].
     margin:0
 }
 /*# sourceMappingURL=main.css.map */
- 
