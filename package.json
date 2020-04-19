@@ -1,8 +1,8 @@
 {
-    "name": "editorial",
-    "description": "This is Editorial, a news-oriented theme for Ghost.",
+    "name": "editorial-fork",
+    "description": "A fork of ghosts Editorial theme, modified by Matthew Payor",
     "demo": "https://editorial.ghost.io",
-    "version": "2.0.0",
+    "version": "1",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
@@ -21,14 +21,13 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
+        "name": "Matthew Payor, modified from Ghost Foundation",
+        "email": "matthewpayor@optusnet.com.au",
         "url": "https://ghost.org"
     },
     "gpm": {
         "type": "theme",
         "categories": [
-            "Minimal",
             "Magazine"
         ]
     },
@@ -39,9 +38,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Editorial.git"
+        "url": "https://github.com/payor-ma/editorial-fork.git"
     },
-    "bugs": "https://github.com/TryGhost/Editorial/issues",
+    "bugs": "https://github.com/payor-ma/editorial-fork/issues",
     "contributors": [
         {
             "name": "ajlkn",
@@ -61,7 +60,7 @@
         "node-sass": "4.13.1"
     },
     "config": {
-        "posts_per_page": 6,
+        "posts_per_page": 12,
         "image_sizes": {
             "xxs": {
                 "width": 30
